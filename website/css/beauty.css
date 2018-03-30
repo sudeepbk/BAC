@@ -9,7 +9,6 @@ h1{
 }
 
 #aboutMe{
-
   color:white;
 }
 #video1{
@@ -21,6 +20,6 @@ h1{
 #video2{
   position: absolute;
    right: 400px;
-   width: 300px;
+   width: 250px;
 
 }
