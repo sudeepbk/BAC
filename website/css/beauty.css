@@ -1,25 +1,77 @@
 body{
-
-   background-image: url("../images/back.jpg");
-
+  background-color:#3B5584;
  }
+ .navigations{
 
-h1{
- color: white;
+   margin-bottom: 20px;
+ }
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C7814D;
 }
+li{
+  float:left;
 
-#aboutMe{
+}
+li a{
+  display:block;
   color:white;
-}
-#video1{
-  display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 40%;
-}
-#video2{
-  position: absolute;
-   right: 400px;
-   width: 250px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 
+}
+li a:hover{
+  background-color: #C7B04D;
+}
+h1{
+
+  font-size: 30px;
+}
+h1 span{
+  font-size:90px;
+}
+.container{
+  position:relative;
+  text-align: center;
+  color:white;
+  margin-bottom: 20px;
+}
+}
+.players{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+}
+.gallery{
+    background-color: #C7814D;
+}
+.gallery a img{
+  border:1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width:150px;
+
+
+}
+.gallery a img:hover{
+
+  box-shadow: 0 0 2px 1px rgba(255, 0, 0, 0.5);
+
+}
+.about{
+
+  background-color: #C7814D;
+}
+.about p {
+
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
 }
