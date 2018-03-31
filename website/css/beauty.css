@@ -1,5 +1,7 @@
 body{
   background-color:#3B5584;
+  margin-top: 50px;
+  margin-bottom: 90px;
  }
  .navigations{
 
@@ -52,11 +54,12 @@ h1 span{
     background-color: #C7814D;
 }
 .gallery a img{
+
   border:1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   width:150px;
-
+  margin: 10px;
 
 }
 .gallery a img:hover{
@@ -68,10 +71,35 @@ h1 span{
 
   background-color: #C7814D;
 }
+.about h1{
+  margin-top: 10px;
+  padding-top: 10px;
+  position: relative;
+  color: #3B5584;
+  left:0;
+  top:10%;
+  width: 100%;
+  text-align: center;
+}
 .about p {
 
   font-size: 20px;
   font-family: sans-serif;
   color: white;
   text-align: center;
+  padding: 20px;
+}
+.contact{
+  position: relative;
+  background-color: #C7814D;
+  padding: 20px;
+}
+.contact h1{
+  position: absolute;
+  color: #3B5584;
+  left:0;
+  top:10%;
+  width: 100%;
+  text-align: center;
+
 }
