@@ -37,10 +37,10 @@ h1 span{
 .container{
   position:relative;
   text-align: center;
-  color:white;
+  color:WHITE;
   margin-bottom: 20px;
 }
-}
+
 .players{
   position:absolute;
   top:50%;
