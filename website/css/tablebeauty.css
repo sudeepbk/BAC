@@ -1,0 +1,37 @@
+body{
+  background-color:#1F2739;
+
+}
+.title h1{
+  position: relative;
+  left:500px;
+  color: white;
+}
+
+
+.container{
+
+  text-align: center;
+	  overflow: hidden;
+	  width: 80%;
+	  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+  color:white;
+}
+.container th h2{
+
+  font-weight: bold;
+
+  text-align: center;
+  color: #185875;
+}
+
+.container td{
+  background-color: #2C3446;
+}
+.container td:hover {
+
+   background-color: #FFF842;
+   color:#1F2739;
+}
