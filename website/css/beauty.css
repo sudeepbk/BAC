@@ -43,10 +43,32 @@ h1 span{
 }
 
 .players{
-  position:absolute;
+  position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
+
+}
+.players::before{
+
+  content:'[';
+  left:-30px;
+
+}
+.players::after{
+  content:']';
+  right:-30px;
+
+}
+.players::before, .players::after{
+        position: absolute;
+        top:40px;
+        color:white;
+        font-size: 150px;
+        line-height: 40px;
+         animation-name: opacity;
+         animation-duration: 2s;
+         animation-iteration-count: infinite;
 
 }
 .gallery{
@@ -101,4 +123,8 @@ h1 span{
   width: 100%;
   text-align: center;
 
+}
+@keyframes opacity {
+  0%, 100% {opacity:0;}
+  50% {opacity:1;}
 }
