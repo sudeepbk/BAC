@@ -6,4 +6,4 @@ I have been trying to enter into the world of programming by brute force. Speedi
 This is an attempt to create a meaningful project for me and my friends. I belive I will learn my way throught it along the way. 
 
 Sudeep BK,
-Manoj Pun.
+Manoj Pun
