@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Baltimore Athletic Club</title>
+		<link rel="stylesheet" href="css/beauty.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+
+<div class="navigations" id="home">
+	<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#images">Gallary</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#cotact">Contact</a></li>
+	</ul>
+</div>
+
+
+<div class="container" >
+
+	<img src="images/BAC.jpg" alt="BACplayers" style="width:100%">
+
+	<div class="players">
+
+			<h1><span>B</span>altimore <span>A</span>thletic <span>C</span>lub
+
+	</div>
+
+</div>
+
+<div class="gallery" id="images">
+	<a target="_blank" href="images/BAC.jpg"><img src="images/BAC.jpg" alt="me"></a>
+	<a target="_blank" href="images/BAC.jpg"><img src="images/BAC.jpg" alt="me"></a>
+	<a target="_blank" href="images/BAC.jpg"><img src="images/BAC.jpg" alt="me"></a>
+	<a target="_blank" href="images/BAC.jpg"><img src="images/BAC.jpg" alt="me"></a>
+	<a target="_blank" href="images/BAC.jpg"><img src="images/BAC.jpg" alt="me"></a>
+	<a target="_blank" href="images/BAC.jpg"><img src="images/BAC.jpg" alt="me"></a>
+</div>
+
+<div class="about" id="about">
+	<h1><u>ABOUT</u></h1>
+	<p>
+		BAC is a Nepalese Community Soccer players. Staying in America is tough but pursuing your dreams is tougher.<br> To make through our daily hassels, we have committed to dedicate some hour of the week to have some fun.<br>
+		This is what we want, All I want is Soccer.
+	</p>
+
+</div>
+
+<div class="contact" id="contact">
+	<div>
+		<h1><u>CONTACT</u></h1>
+		<div>
+	<iframe width="400" height="400" frameborder="0" style="border:0"
+	src="https://www.google.com/maps/embed/v1/place?&key=AIzaSyAAbuplmAMGxQL2BP0GXHr-m2CFQgLrDt8&q=Towson+High+School,Towson+MD" allowfullscreen></iframe>
+
+<table>
+	<tr>
+		<th></th>
+		<th>Practice days</th>
+		<th>time</th>
+		</tr>
+		<tr>
+			<th>Sundays only</th>
+			<th>8 a.m. to 12 pm</th>
+			
+		</tr>
+</table>
+
+
+</div>
+
+
+
+
+</body>
+
+
+
+
+</html>
