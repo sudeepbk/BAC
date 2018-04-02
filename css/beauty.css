@@ -92,12 +92,13 @@ h1 span{
 .about{
 
   background-color: #C7814D;
+
 }
 .about h1{
   margin-top: 10px;
   padding-top: 10px;
   position: relative;
-  color: #3B5584;
+  color: #1F2739;
   left:0;
   top:10%;
   width: 100%;
@@ -118,7 +119,7 @@ h1 span{
 }
 .contact h1{
   position: absolute;
-  color: #3B5584;
+  color: #1F2739;
   left:0;
   top:10%;
   width: 100%;
